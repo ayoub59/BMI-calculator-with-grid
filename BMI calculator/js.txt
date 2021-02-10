@@ -1,0 +1,13 @@
+function BMI() {
+     var h=document.getElementById('h').value;
+     var w=document.getElementById('w').value;
+     var bmi=w/(h/100*h/100);
+     var bmio=(bmi.toFixed(2));
+
+     document.getElementById("result").innerHTML="Your BMI is " + bmio;
+}
+ weight (kg) / [height (m)]2
+var output = document.getElementById("output");
+var height = document.getElementById("h");
+var width = document.getElementById("w");
+var bmi = width / ()
